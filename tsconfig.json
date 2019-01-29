@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "esnext",
+            "esnext.array",
+            "es2018"
+        ],
+        "module": "commonjs",
+        "target": "esnext",
+        "outDir": "dist",
+        "declaration": true,
+        "sourceMap": true
+    }
+}
