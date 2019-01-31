@@ -21,7 +21,7 @@ class root {
     accept: boolean;
 }
 
-export default class FastScanner{
+export class FastScanner{
     private root: root;
     /**
      * 初始化

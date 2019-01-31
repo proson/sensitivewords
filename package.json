@@ -1,16 +1,21 @@
 {
-    "name": "sensitivewords",
-    "version": "1.0.0",
+    "name": "scannersensitivewords",
+    "version": "1.0.3",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "test": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register src/index.test.ts",
-        "tsc": "ets && tsc -p tsconfig.json",
+        "tsc": "tsc -p tsconfig.json",
         "tsc:w": "tsc -w",
         "build": "tsc"
     },
     "author": "",
     "license": "ISC",
+    "repository": "git@github.com:proson/sensitivewords.git",
+    "publishConfig": {
+        "registry": "https://www.npmjs.com/package/scannersensitivewords"
+    },
     "devDependencies": {
         "@types/chai": "^4.1.7",
         "@types/mocha": "^5.2.5",
